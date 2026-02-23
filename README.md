@@ -75,8 +75,6 @@ Sistem akan dikembangkan untuk mendeteksi kata kunci institusi Indonesia (sepert
 ## ⚠️ Catatan
 
 * Pastikan penggunaan API Key SerpApi tetap dalam batas kuota gratis Anda.
-* Skrip `lpdp2.sh` saat ini mengambil 5 baris data terbaru secara default (dapat diubah pada variabel `ROWS`).
+* Skrip `lpdp.sh` saat ini mengambil 5 baris data terbaru secara default (dapat diubah pada variabel `ROWS`).
+* Skrip dibuat dengan menggunakan Claude dan sudah ditesting
 
----
-
-**Apakah Anda ingin saya menambahkan fungsi otomatisasi di mana `scholar.sh` secara otomatis membaca file CSV hasil dari `lpdp2.sh`?**
