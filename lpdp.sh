@@ -1,6 +1,6 @@
 #!/bin/bash
 # =============================================================================
-# Script   : get_first_author_affiliation.sh
+# Script   : lpdp.sh
 # Deskripsi: Mengambil affiliasi dan ORCID first author dari REST API Crossref
 #            berdasarkan funder ID (LPDP - Lembaga Pengelola Dana Pendidikan)
 # API      : https://api.crossref.org/funders/{funder_id}/works
