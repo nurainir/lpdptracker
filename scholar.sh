@@ -2,8 +2,8 @@
 # scholar.sh
 # Usage: ./scholar.sh "Author Name" YOUR_SERPAPI_KEY
 
-AUTHOR_NAME="Nur Aini Rakhmawat"
-API_KEY=""
+AUTHOR_NAME="$1"
+API_KEY="$2"
 
 if [[ -z "$AUTHOR_NAME" || -z "$API_KEY" ]]; then
   echo "Usage: $0 \"Author Name\" YOUR_SERPAPI_KEY"
